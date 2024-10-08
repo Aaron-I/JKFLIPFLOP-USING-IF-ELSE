@@ -73,17 +73,17 @@ else
 		else if (j != k)
 		  begin
 		  q <= j;
-        qb <= k;
-        end 
+	          qb <= k;
+	          end 
 		else if (j == 1 && k == 1)
 		begin
-               q <= ~q;
-               qb <= ~qb;
-            end   
-        end
-		end
-	   endmodule
-   ```
+                q <= ~q;
+                qb <= ~qb;
+            	end   
+	end
+     end
+endmodule
+```
 
 **RTL LOGIC FOR FLIPFLOPS**
 ![image](https://github.com/user-attachments/assets/ecb4fd74-9e81-4821-aed4-463dbb97d161)
